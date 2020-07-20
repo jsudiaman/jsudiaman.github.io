@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan Sudiaman</title>
+---
+layout: default
+---
+My PGP key, if you’d like to encrypt a message to me.
 
-    <link rel="stylesheet" href="vendor/featherlight/featherlight.min.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendor/tacit/tacit-css-1.5.1.min.css">
-
-    <script src="vendor/jquery/jquery-3.4.1.min.js" defer></script>
-    <script src="vendor/featherlight/featherlight.min.js" defer></script>
-</head>
-<body>
-<section>
-    <header>
-        <nav>
-            <ul>
-                <li><img src="images/profile.jpg" alt="Profile Picture" style="border-radius: 50%; height: 150px"></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="pgp.html">pgp</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <p>My PGP key, if you’d like to encrypt a message to me:</p>
-        <pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBF6jXRgBEACwN95KcOApCn2G87XLNBuTEMaHwPIK7lgsrUoRQSaN8lsfKtJr
 6ZjnYx9wNUPPZH2DeC+Dx5G0BeT15kvTFcW6udS+x1wGg6u1lME3+9zj5V9Cmc5o
@@ -80,18 +55,5 @@ czPkKVMigAgX6waCXicQ6EI+VfuT4pYC9O5zJDecNJ4uuXTgeqBRWGbwxdkD7BkN
 qz0TZQ+GOM3BvhTqzLtYdPiuwDXcKTL/BeZsYygDnWy79vOdC6/F0GUen444KKqc
 2300SmM=
 =IbEm
------END PGP PUBLIC KEY BLOCK-----</pre>
-    </article>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="mailto:jonathan@sudicode.com"><i class="fas fa-envelope fa-2x"></i></a></li>
-                <li><a href="http://linkedin.com/in/jonathansudiaman"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                <li><a href="http://stackoverflow.com/users/6268626"><i class="fab fa-stack-overflow fa-2x"></i></a></li>
-                <li><a href="http://github.com/sudiamanj"><i class="fab fa-github fa-2x"></i></a></li>
-            </ul>
-        </nav>
-    </footer>
-</section>
-</body>
-</html>
+-----END PGP PUBLIC KEY BLOCK-----
+```
