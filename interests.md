@@ -14,7 +14,7 @@ I also play on simulators like The Pinball Arcade and Pinball FX3. The experienc
 # Trading Card Games
 <figure>
     <img src="images/tcg.jpg">
-    <figcaption>He raged at the world, at his family, at his life. But mostly he just raged.</figcaption>
+    <figcaption>Believe in the heart of the cards!</figcaption>
 </figure>
 
 Yu-Gi-Oh! was my introduction to the world of TCGs. (The anime had convinced me to learn how to play the actual game.) One of my first programming projects was a [calculator](https://gist.github.com/sudiamanj/c9dca4019559819a415b3aabae44cca5) that keeps track of life points for both players.
