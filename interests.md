@@ -17,6 +17,14 @@ I also play on simulators like The Pinball Arcade and Pinball FX3. The experienc
     <figcaption>Believe in the heart of the cards!</figcaption>
 </figure>
 
-Yu-Gi-Oh! was my introduction to the world of TCGs. (The anime had convinced me to learn how to play the actual game.) One of my first programming projects was a [calculator](https://gist.github.com/sudiamanj/c9dca4019559819a415b3aabae44cca5) that keeps track of life points for both players.
+Yu-Gi-Oh! was my introduction to the world of TCGs. (The anime had convinced me to learn how to play the actual game.) One of my first programming projects was a [calculator](http://gist.github.com/sudiamanj/c9dca4019559819a415b3aabae44cca5) that keeps track of life points for both players.
 
 Nowadays, I mostly play Magic: The Gathering. I really enjoy the deck building aspect of TCGs, which inspired me to create [Combo Chance](http://combochance.sudicode.com) — a tool that calculates the probability of drawing a combo in an opening hand.
+
+# Tetris
+<figure>
+    <img src="images/tetris.jpg">
+    <figcaption>Fun fact: The Tetris theme song was derived from Korobeiniki, a Russian folk song!</figcaption>
+</figure>
+
+I've been playing competitive Tetris games including Tetris 99 and [TETR.IO](http://ch.tetr.io/u/sudi). Still learning a lot at the moment, and I certainly don't consider myself a professional. I also play the Atari version whenever I get a chance during my Pinball adventures.
