@@ -106,10 +106,9 @@ body {
   line-height: 29.7px;
 }
 
-fieldset {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+fieldset label,
+fieldset legend {
+  display: block;
 }
 
 fieldset legend {
