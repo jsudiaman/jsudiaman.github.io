@@ -42,17 +42,17 @@
             </ul>
         </nav>
         <nav>
-            <small id="message-scroller"></small>
+            <small id="message-ticker"></small>
         </nav>
     </footer>
 </section>
 <script src="vendor/lightbox/lightbox.js"></script>
-<script src="scroller.js"></script>
+<script src="ticker.js"></script>
 <script>
     var messages = [
         "This website doesn't use cookies."
     ];
-    new Scroller( document.getElementById( "message-scroller" ), messages ).render();
+    new Ticker( document.getElementById( "message-ticker" ), messages ).render();
 </script>
 </body>
 </html>
