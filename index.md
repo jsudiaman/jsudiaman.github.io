@@ -7,4 +7,4 @@ I'm proud to hold a B.S. degree in Computer Science from [Wentworth Institute of
 a certification from Oracle ([OCAJP 8](http://www.youracclaim.com/badges/edb762b0-efac-4118-ab22-76e03d184b50)). Most
 notably, I've attained the highest GPA (3.94) out of all CS majors in my graduating class at WIT.
 
-I currently work as a Software Engineer for <a href="http://www.commscope.com">CommScope</a>.
+I currently work as a Software Engineer for [CommScope](http://www.commscope.com). Feel free to check out my [resume](https://docs.google.com/document/d/1YzSg409qMcitid2hJqzWZPDrY6nfuq4CpeqIFmutf2Q/edit?usp=sharing) if you're interested!
