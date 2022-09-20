@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan Sudiaman</title>
+    {%- if page.title -%}
+        <title>Jonathan Sudiaman | {{ page.title }}</title>
+    {%- else -%}
+        <title>Jonathan Sudiaman</title>
+    {%- endif -%}
 
     <link rel="stylesheet" href="/vendor/lightbox/lightbox.css">
     <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
@@ -27,7 +31,7 @@
     <article>
         {%- if page.title and page.date -%}
             <h1 style="margin-top: 0">{{ page.title }}</h1>
-            <p><i class="fas fa-calendar-day"></i>&nbsp;&nbsp;{{ page.date | date: "%b %-d, %Y" }}</p>
+            <code><i class="fas fa-calendar-day"></i> {{ page.date | date: "%b %-d, %Y" }}</code>
             <hr>
         {%- endif -%}
         {{content}}

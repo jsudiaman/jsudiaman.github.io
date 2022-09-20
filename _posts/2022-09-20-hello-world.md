@@ -3,12 +3,20 @@ layout: default
 title: "Hello, World!"
 ---
 
-Spicy jalapeno bacon ipsum dolor amet shankle boudin biltong meatball pork corned beef pig landjaeger alcatra short ribs chuck drumstick strip steak ribeye. Buffalo short ribs turducken shankle pork loin rump. Cow tail landjaeger flank chicken turducken pork loin ham hock. Shank sirloin corned beef, shoulder ball tip bresaola flank pork cow beef ribs alcatra t-bone landjaeger salami. Meatloaf tongue bacon pork chop leberkas shankle ball tip pork belly. Venison corned beef chicken shoulder kielbasa turducken, pancetta swine pork chop pig ground round leberkas bresaola salami. Tri-tip prosciutto landjaeger pork.
+If you are reading this post, it means that my blog is currently up and running! Hooray! 🎉
 
-Turkey alcatra picanha landjaeger tongue drumstick shoulder flank shankle tenderloin ball tip tri-tip venison meatloaf andouille. Short loin cow shank, ball tip andouille leberkas swine jowl meatball jerky. Chuck jerky filet mignon, turkey pork belly rump turducken hamburger jowl pork loin chicken salami shankle. Fatback brisket tenderloin sausage pork belly jowl chuck ham hock swine prosciutto. Cow boudin chislic landjaeger turkey shankle cupim kielbasa bresaola corned beef ham alcatra swine. Cupim jowl pancetta, swine pork meatloaf jerky rump buffalo biltong ribeye pig ball tip. Ball tip jowl filet mignon cupim, chicken andouille shank kielbasa meatloaf corned beef.
+As an introductory blog post, I figured it would be appropriate to document exactly how this blog is setup. If you're curious, the source code is publicly available on my [GitHub repository](https://github.com/sudiamanj/sudiamanj.github.io).
 
-Shoulder frankfurter landjaeger meatball strip steak kielbasa. Hamburger tail venison, boudin brisket strip steak tri-tip ribeye salami pork loin sirloin leberkas meatloaf. Meatball chuck flank shank sausage jerky filet mignon doner. Jowl cow kevin hamburger kielbasa drumstick beef chicken leberkas porchetta meatball sausage tail t-bone. Boudin kielbasa fatback pancetta capicola beef ribs. Sausage fatback shank short ribs buffalo corned beef.
+## Framework and Hosting
 
-Rump drumstick pastrami pork meatloaf turducken. Meatloaf biltong beef ball tip spare ribs. Leberkas cupim jowl drumstick shank, picanha strip steak fatback capicola ham pancetta pork loin t-bone chicken. Pork sausage leberkas, shank burgdoggen rump cupim pork chop beef ham pastrami kevin jowl buffalo. Bacon buffalo corned beef ribeye, tri-tip shankle drumstick burgdoggen shoulder. Shankle kielbasa beef pancetta cupim ribeye ground round cow. Buffalo ground round ribeye boudin pork chop rump swine jowl porchetta.
+The blogging framework I chose was [Jekyll](https://jekyllrb.com/). Having no GUI and being entirely CLI based, the learning curve might seem daunting at first. However, the documentation is fairly straightforward to follow, especially if you are familiar with Ruby. The main advantage of using Jekyll is that it is a **static site generator**, i.e. there is no need for a backend to store the blog posts. More importantly, this means that it can be hosted on [GitHub Pages](https://pages.github.com/), free of charge! This saves me money to help feed my caffeine addiction. :)
 
-Bresaola spare ribs beef pork chop meatball sirloin. Chuck strip steak shoulder meatloaf. Rump chislic kielbasa burgdoggen bresaola, ham hock spare ribs picanha. Pig short ribs cow ham. Andouille tenderloin strip steak alcatra doner ham corned beef venison ham hock pastrami pork belly short ribs. Shankle pork loin pastrami buffalo swine rump. Chuck ball tip t-bone drumstick ground round pork chop, beef swine pig sausage tongue hamburger strip steak meatball ribeye.
+One more thing you might notice is that there are no CI/CD configuration files stored on the repo. GitHub Pages are built with Jekyll by default, so all you need is the front matter and GitHub handles the build process for you.
+
+## Theming
+
+I built a minimal theme based on [Tacit](https://yegor256.github.io/tacit/) and [Font Awesome](https://fontawesome.com/). It's not available as a Ruby gem, but most of the "guts" are in [\_layouts/default.html](https://github.com/sudiamanj/sudiamanj.github.io/blob/5561d8932934ae6684fc4de17eb9472f88088751/_layouts/default.html).
+
+## Comments
+
+Currently, there is no ability to leave comments on a blog post. Being a static site generator, Jekyll is unable to implement this functionality out of the box. However, I will consider integrating something like [Disqus](https://disqus.com/) in the future!
