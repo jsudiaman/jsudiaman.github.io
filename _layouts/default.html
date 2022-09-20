@@ -5,20 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonathan Sudiaman</title>
 
-    <link rel="stylesheet" href="vendor/lightbox/lightbox.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="vendor/tacit/tacit-css-1.5.3.min.css">
+    <link rel="stylesheet" href="/vendor/lightbox/lightbox.css">
+    <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/vendor/tacit/tacit-css-1.5.3.min.css">
 </head>
 <body>
 <section>
     <header>
         <nav>
             <ul>
-                <li><a href="/"><img src="images/profile.jpg" alt="Profile Picture" style="border-radius: 50%; height: 150px"></a></li>
+                <li><a href="/"><img src="/images/profile.jpg" alt="Profile Picture" style="border-radius: 50%; height: 150px"></a></li>
             </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/blog">blog</a></li>
+          </ul>
         </nav>
     </header>
     <article>
+        {%- if page.title and page.date -%}
+            <h1 style="margin-top: 0">{{ page.title }}</h1>
+            <p><i class="fas fa-calendar-day"></i>&nbsp;&nbsp;{{ page.date | date: "%b %-d, %Y" }}</p>
+            <hr>
+        {%- endif -%}
         {{content}}
     </article>
     <footer>
@@ -26,6 +37,7 @@
             <ul>
                 <li><a href="http://linkedin.com/in/jonathansudiaman"><i class="fab fa-linkedin fa-2x"></i></a></li>
                 <li><a href="http://github.com/sudiamanj"><i class="fab fa-github fa-2x"></i></a></li>
+                <li><a href="/feed.xml"><i class="fas fa-rss fa-2x"></i></a></li>
             </ul>
         </nav>
         <nav>
@@ -42,6 +54,6 @@
         </nav>
     </footer>
 </section>
-<script src="vendor/lightbox/lightbox.js"></script>
+<script src="/vendor/lightbox/lightbox.js"></script>
 </body>
 </html>
