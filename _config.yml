@@ -1,4 +1,6 @@
+author: "Jonathan Sudiaman"
 date_format: "%b %-d, %Y"
 estimated_wpm: 180
 plugins:
   - jekyll-feed
+title: "Jonathan Sudiaman's Blog"
