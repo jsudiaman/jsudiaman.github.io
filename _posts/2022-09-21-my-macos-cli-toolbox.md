@@ -3,7 +3,7 @@ layout: default
 title: "Bootstrapping the macOS CLI"
 ---
 
-I consider myself to be a fairly heavy CLI user. Not to say that I edit everything through Vim and use cURL to browse the web, of course. But I do think that it's worth spending some time to improve upon the "stock" terminal application. Here's how my prompt currently looks:
+I consider myself to be a fairly heavy CLI user. Not to say that I edit everything through Vim and use cURL to browse the web, of course. But I do think that it's worth spending some time to improve upon the stock terminal application. Here's how my prompt currently looks:
 
 ![iTerm2 Prompt](/assets/iTerm2.png)
 
@@ -19,7 +19,7 @@ iTerm2 has a wide variety of [features](https://iterm2.com/features.html). Split
 
 ## Powerline
 
-[Powerline](https://powerline.readthedocs.io) is the "cherry on top" that lets me visualize the current working directory, as well as the current branch if I'm currently inside a Git or Mercurial repo. Being technically a Vim plugin (with bindings for bash/zsh/etc), the setup process is somewhat underdocumented, but I'll go over the basic steps.
+[Powerline](https://powerline.readthedocs.io) is the cherry on top that lets me visualize the current working directory, as well as the current branch if I'm currently inside a Git or Mercurial repo. Being technically a Vim plugin (with bindings for bash/zsh/etc), the setup process is somewhat underdocumented, but I'll go over the basic steps.
 
 ```
 # Install the powerline-status package from pip.
@@ -44,7 +44,7 @@ The last step is to update your iTerm2 preferences to use the Powerline fonts. (
 
 ## Honorable Mentions
 
-That's basically it as far as "bootstrapping" goes, but of course, there's a multitude of other helpful tools out there. Feel free to comment with suggestions of your own!
+That's basically it as far as bootstrapping goes, but of course, there's a multitude of other helpful tools out there. Feel free to comment with suggestions of your own!
 
-- [thefuck](https://github.com/nvbn/thefuck) - A "joke" program, but it can actually be quite useful. It's autocorrect for console commands.
+- [thefuck](https://github.com/nvbn/thefuck) - Started off as a joke, but it can actually be quite useful. It's autocorrect for console commands.
 - [Visual Studio Code](https://code.visualstudio.com/) - Technically not a CLI application, but it does add a useful `code [path]` command which can be used to open a file or folder in VS Code. Great for those of us who aren't Vim ninjas.

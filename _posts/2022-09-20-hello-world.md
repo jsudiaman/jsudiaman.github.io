@@ -15,7 +15,7 @@ One more thing you might notice is that there are no CI/CD configuration files s
 
 ## Theming
 
-I built a minimal theme based on [Tacit](https://yegor256.github.io/tacit/) and [Font Awesome](https://fontawesome.com/). It's not available as a Ruby gem, but most of the "guts" are in [\_layouts/default.html](https://github.com/sudiamanj/sudiamanj.github.io/blob/5561d8932934ae6684fc4de17eb9472f88088751/_layouts/default.html).
+I built a minimal theme based on [Tacit](https://yegor256.github.io/tacit/) and [Font Awesome](https://fontawesome.com/). It's not available as a Ruby gem, but most of the guts are in [\_layouts/default.html](https://github.com/sudiamanj/sudiamanj.github.io/blob/master/_layouts/default.html).
 
 ## Comments
 
