@@ -12,3 +12,5 @@ title: Blog
         </tr>
     {% endfor %}
 </table>
+
+<small>Looking for more? Check out my <a href="http://getpocket.com/@2cHdWpb7T5f1bg5123Aej68AaNg7TN14823K78g4aoW4ejW46ej1fJ70A57Pl6cH?src=navbar">Pocket recommendations</a>.</small>
