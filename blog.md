@@ -13,4 +13,4 @@ title: Blog
     {% endfor %}
 </table>
 
-<small>Looking for more? Check out my <a href="http://getpocket.com/@2cHdWpb7T5f1bg5123Aej68AaNg7TN14823K78g4aoW4ejW46ej1fJ70A57Pl6cH?src=navbar">Pocket recommendations</a>.</small>
+<small>Looking for more? Check out my <a href="http://getpocket.com/@158g5d6fpY1f5A282fTb34aT6aA9p1b1593pdiVb8cbzd5E526203w88kD1Zd1cF?src=navbar">Pocket recommendations</a>.</small>
