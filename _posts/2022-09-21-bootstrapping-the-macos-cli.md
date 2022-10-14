@@ -46,5 +46,6 @@ The last step is to update your iTerm2 preferences to use the Powerline fonts. (
 
 That's basically it as far as bootstrapping goes, but of course, there's a multitude of other helpful tools out there. Feel free to comment with suggestions of your own!
 
+- [Hyper](https://hyper.is/) - An Electron-based terminal emulator that also supports split panes.
 - [thefuck](https://github.com/nvbn/thefuck) - Started off as a joke, but it can actually be quite useful. It's autocorrect for console commands.
 - [Visual Studio Code](https://code.visualstudio.com/) - Technically not a CLI application, but it does add a useful `code [path]` command which can be used to open a file or folder in VS Code. Great for those of us who aren't Vim ninjas.
